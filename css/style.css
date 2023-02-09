@@ -8,7 +8,7 @@
 .container h1 {
     margin-top: 30px;
     font-weight: bold;
-    color: aqua;
+    color: black;
 }
 
 .task {
@@ -21,6 +21,8 @@ input {
     border-top: none;
     border-left: none;
     border-right: none;
+    padding: 6px;
+    width: 200px;
 }
 
 #taskname {
@@ -28,14 +30,23 @@ input {
 }
 
 button {
-    width: 100px;
-    background-color: aqua;
-    color: black;
+    width: 115px;
+    background-color: black;
+    color: rgb(174, 193, 209);
     border: none;
     outline: none;
-    padding: 5px;
+    padding: 7px;
 }
 
 .completed span{
     text-decoration: line-through;
+}
+
+.allButtons {
+    width: 600px;
+    margin: auto;
+}
+
+body {
+    background-color: rgb(174, 193, 209);
 }
